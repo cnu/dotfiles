@@ -1,0 +1,65 @@
+# Secrets — never commit
+.ssh/
+.gnupg/
+.aws/
+.netrc
+.claude.json
+.config/gh/
+.config/rclone/
+.local/share/keyrings/
+.pki/
+.pulse-cookie
+*token*
+*secret*
+*credential*
+*.pem
+*.key
+
+# Caches & regenerable state
+.cache/
+.cargo/
+.npm/
+.rustup/
+.nv/
+.vscode/
+.vscode-server/
+.local/state/
+.local/share/Trash/
+.local/share/Steam/
+.local/share/applications/
+.local/share/gvfs-metadata/
+.local/share/flatpak/
+.local/share/vulkan/
+.minecraft/
+
+# Browsers / IDEs / app state
+.config/chromium/
+.config/google-chrome/
+.config/BraveSoftware/
+.config/Code/
+.config/zed/
+.config/obs-studio/
+.config/Typora/
+.config/libreoffice/
+.config/yay/
+.config/qalculate/
+.config/dconf/
+.config/pulse/
+.config/ibus/
+.config/fcitx*/
+.config/discord/
+.config/Slack/
+.config/spotify/
+
+# Shell history & runtime
+.bash_history
+.zsh_history
+.viminfo
+.lesshst
+.wget-hsts
+
+# Externally-sourced theme repos (regenerable via omarchy theme install)
+.config/omarchy/themes/
+
+# Self
+.cfg/
