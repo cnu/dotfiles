@@ -1,12 +1,9 @@
 return {
-	{
-		dir = "~/.config/omarchy/themes/fireside/fireside.nvim",
-		name = "fireside",
-	},
-	{
+  { "tahayvr/matteblack.nvim", lazy = false, priority = 1000 },
+  {
 		"LazyVim/LazyVim",
 		opts = {
-			colorscheme = "fireside",
+			colorscheme = "matteblack",
 		},
 	},
 }
