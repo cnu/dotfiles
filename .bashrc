@@ -14,3 +14,4 @@ source ~/.local/share/omarchy/default/bash/rc
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 . "$HOME/.local/share/../bin/env"
+eval "$(direnv hook bash)"
