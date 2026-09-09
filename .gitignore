@@ -61,5 +61,9 @@
 # Externally-sourced theme repos (regenerable via omarchy theme install)
 .config/omarchy/themes/
 
+# Local config backups (omarchy refresh/migration, manual .bak copies)
+*.bak
+*.bak.*
+
 # Self
 .cfg/
