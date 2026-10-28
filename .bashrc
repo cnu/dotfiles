@@ -27,3 +27,12 @@ eval "$(direnv hook bash)"
 
 # kimi-code
 export PATH="/home/cnu/.kimi-code/bin:$PATH"
+export PATH="/home/cnu/go/bin:$PATH"
+
+# railway
+source "$HOME/.railway/env"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/cnu/.lmstudio/bin"
+# End of LM Studio CLI section
+
