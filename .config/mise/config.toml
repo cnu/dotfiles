@@ -1,9 +1,13 @@
 [tools]
 claude = "latest"
 codex = "latest"
+copilot = "latest"
+crush = "latest"
 gh = "latest"
-node = "25.9.0"
+node = "26.10.0"
+"npm:@xai-official/grok" = "latest"
 opencode = "latest"
+pi = "latest"
 python = "latest"
 
 [settings.upgrade]
