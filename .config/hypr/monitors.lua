@@ -17,12 +17,5 @@ hl.monitor({ output = "", mode = "preferred", position = "auto", scale = omarchy
 hl.monitor({ output = "HDMI-A-1", mode = "preferred", position = "0x0", scale = 1 })
 hl.monitor({ output = "DP-1", mode = "preferred", position = "1920x0", scale = 1 })
 
--- Odd workspaces live on the LG (left), even workspaces on the AOC (right).
-for workspace = 1, 10 do
-  local odd = workspace % 2 == 1
-  hl.workspace_rule({
-    workspace = tostring(workspace),
-    monitor = odd and "HDMI-A-1" or "DP-1",
-    default = workspace <= 2,
-  })
-end
+-- Workspaces are per monitor (Omarchy 4.5+): each monitor has its own 1-0.
+-- See $OMARCHY_PATH/default/hypr/monitor-workspaces.lua.
